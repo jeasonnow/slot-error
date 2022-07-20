@@ -1,0 +1,104 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "demo",
+      "version": "1.0.0",
+      "private": true,
+      "description": "a demo to show slot bug",
+      "templateInfo": {
+        "name": "default",
+        "typescript": true,
+        "css": "less"
+      },
+      "scripts": {
+        "build:weapp": "taro build --type weapp",
+        "build:swan": "taro build --type swan",
+        "build:alipay": "taro build --type alipay",
+        "build:tt": "taro build --type tt",
+        "build:h5": "taro build --type h5",
+        "build:rn": "taro build --type rn",
+        "build:qq": "taro build --type qq",
+        "build:jd": "taro build --type jd",
+        "build:quickapp": "taro build --type quickapp",
+        "dev:weapp": "npm run build:weapp -- --watch",
+        "dev:swan": "npm run build:swan -- --watch",
+        "dev:alipay": "npm run build:alipay -- --watch",
+        "dev:tt": "npm run build:tt -- --watch",
+        "dev:h5": "npm run build:h5 -- --watch",
+        "dev:rn": "npm run build:rn -- --watch",
+        "dev:qq": "npm run build:qq -- --watch",
+        "dev:jd": "npm run build:jd -- --watch",
+        "dev:quickapp": "npm run build:quickapp -- --watch"
+      },
+      "browserslist": [
+        "last 3 versions",
+        "Android >= 4.1",
+        "ios >= 8"
+      ],
+      "author": "",
+      "dependencies": {
+        "@babel/runtime": "^7.7.7",
+        "@tarojs/components": "3.5.0@beta",
+        "@tarojs/helper": "3.5.0@beta",
+        "@tarojs/plugin-framework-react": "3.5.0@beta",
+        "@tarojs/plugin-platform-alipay": "3.5.0@beta",
+        "@tarojs/plugin-platform-jd": "3.5.0@beta",
+        "@tarojs/plugin-platform-qq": "3.5.0@beta",
+        "@tarojs/plugin-platform-swan": "3.5.0@beta",
+        "@tarojs/plugin-platform-tt": "3.5.0@beta",
+        "@tarojs/plugin-platform-weapp": "3.5.0@beta",
+        "@tarojs/react": "3.5.0@beta",
+        "@tarojs/router": "3.5.0@beta",
+        "@tarojs/runtime": "3.5.0@beta",
+        "@tarojs/shared": "3.5.0@beta",
+        "@tarojs/taro": "3.5.0@beta",
+        "@tarojs/taro-h5": "3.5.0@beta",
+        "react": "^17.0.0",
+        "react-dom": "^17.0.0"
+      },
+      "devDependencies": {
+        "@babel/core": "^7.8.0",
+        "@pmmmwh/react-refresh-webpack-plugin": "0.5.5",
+        "@swc/core": "1.2.212",
+        "@tarojs/webpack5-runner": "3.5.0@beta",
+        "@types/react": "^17.0.2",
+        "@types/webpack-env": "^1.13.6",
+        "@typescript-eslint/eslint-plugin": "^5.20.0",
+        "@typescript-eslint/parser": "^5.20.0",
+        "babel-preset-taro": "3.5.0@beta",
+        "eslint": "^8.12.0",
+        "eslint-config-taro": "3.5.0@beta",
+        "eslint-plugin-import": "^2.12.0",
+        "eslint-plugin-react": "^7.8.2",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "react-refresh": "0.11.0",
+        "stylelint": "^14.4.0",
+        "typescript": "^4.1.0",
+        "webpack": "5.69.0"
+      }
+    },
+    "prefix": "/Users/guyifeng/workspace/mine/demo"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/guyifeng/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/guyifeng/workspace/mine/demo/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/guyifeng/workspace/mine/demo",
+    "stage": "resolution_started"
+  },
+  "4 error pnpm": {
+    "code": "ERR_PNPM_SPEC_NOT_SUPPORTED_BY_ANY_RESOLVER",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "@tarojs/webpack5-runner@3.5.0@beta isn't supported by any available resolver.",
+      "code": "ERR_PNPM_SPEC_NOT_SUPPORTED_BY_ANY_RESOLVER",
+      "stack": "pnpm: @tarojs/webpack5-runner@3.5.0@beta isn't supported by any available resolver.\n    at Object.resolve (/Users/guyifeng/Library/pnpm-global/5/node_modules/.pnpm/pnpm@6.26.0/node_modules/pnpm/dist/pnpm.cjs:85859:17)\n    at async run (/Users/guyifeng/Library/pnpm-global/5/node_modules/.pnpm/pnpm@6.26.0/node_modules/pnpm/dist/pnpm.cjs:71504:23)"
+    }
+  }
+}

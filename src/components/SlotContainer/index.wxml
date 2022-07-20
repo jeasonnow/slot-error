@@ -1,0 +1,5 @@
+<view class="test">
+  <slot name="before"></slot>
+  <view>测试编译slot</view>
+  <slot name="after"></slot>
+</view>
